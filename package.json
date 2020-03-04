@@ -14,6 +14,10 @@
   "devDependencies": {
     "@types/node": "^13.7.4"
 	},
-	"publishConfig": { "registry": "https://npm.pkg.github.com/" }
-
+	"publishConfig": { "registry": "https://npm.pkg.github.com/" },
+	"repository" : {
+    "type" : "git",
+    "url": "ssh://git@github.com/raebits/node_duitku.git",
+    "directory": "packages/name"
+  }
 }
